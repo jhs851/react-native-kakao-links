@@ -17,13 +17,17 @@ RN 0.60버전이 나옴에 따라 linking 과정이 생략되었습니다.
 
 ## Installation
 
-`$ npm install react-native-kakao-links --save`
+`$ npm install react-native-kakao-links`
+
+or
+
+`$ yarn add react-native-kakao-links`
 
 ### React Native Link
 
 #### RN >= 0.60
 
-링크가 필요하지 않습니다.
+`$ npx pod-install`
 
 #### RN <= 0.59
 
@@ -36,15 +40,7 @@ react-native link 를 이용하시면 빠른 설치가 가능합니다.
 
 #### IOS
 
-**Note**: CocoaPod에서 `pod 'KakaoOpenSDK'`를 사용하고자 했으나, pod install 이 불가한 것 같습니다
-
-카카오링크 공식가이드
-https://developers.kakao.com/docs/latest/ko/message/common 를 참고하셔서 모듈을 사용하기위한 KakaoSDK를 설치하시기 바랍니다.
-
-**Note** : KakaoSDK frameworks를 추가한 후 Pods - RNKakaoLink 에서 헤더를 참조하지 못하는 경우
-
-XCode의 좌측에서 Pods PROJECT 선택 후 TARGETS - RNKakaoLink 를 찾아
-BuildSettings - Framework SearchPath 에 \$(PROJECT_DIR)/.. 를 추가해주시면 됩니다.
+따로 설치할게 없습니다.
 
 #### Android
 
